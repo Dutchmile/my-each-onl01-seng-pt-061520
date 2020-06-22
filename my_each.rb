@@ -13,5 +13,5 @@ end
 
 numbers = [1, 2, 3, 4, 5]
 my_each(numbers) do |num|
-  puts num
+  return num
 end
